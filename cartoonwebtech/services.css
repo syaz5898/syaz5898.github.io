@@ -1,0 +1,164 @@
+* {
+  font-family: 'Averia Sans Libre', cursive;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  background-color: #44ffdc;
+}
+
+header {
+  margin: 0 auto;
+  background-color: #000000;
+  font-size: 23px;
+}
+
+.left{
+  float: left;
+  margin-top: -20px;
+}
+
+.button {
+  background-color: #000000;
+  color: #44ffdc;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px 10px 10px;
+  width: 93%;
+  float: inherit;
+
+}
+
+
+.button > li {
+  display: inline-block;
+  padding: 7px 0px 0px 2.5%;
+  font-size: 23px;
+  margin: 0px -5px -7px -5px;
+}
+
+.button > li > a{
+  text-decoration: none;
+  color: #44ffdc;
+}
+
+.button > li > a:hover {
+  color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 50px;
+    overflow: hidden;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color:#44ffdc}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.form h1{
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: -50px;
+  margin-bottom: 20px;
+  color: #44ffdc;
+}
+
+.form {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 135px;
+  clear: left;
+  width: 80%;
+  height: 600px;
+  padding-top: 0px;
+  padding-bottom: 3%;
+  padding-left: 4%;
+  padding-right: 5%;
+  background-color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 30px;
+  color: black;
+}
+
+.container {
+  clear: both;
+  margin-top: -370px;
+  padding-right: 60px;
+  margin-bottom: 0px;
+  width: 50%;
+  float: right;
+  color: #44ffdc;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 30px;
+  color: white;
+}
+
+.container input, textarea {
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+.image{
+  margin-top: 100px;
+  margin-left: 40px;
+  width: 40%;
+}
+button {
+  background-color: black;
+  color: #44ffdc;
+  padding: 20px;
+  padding-left: 75px;
+  padding-right: 75px;
+  border-radius: 20px;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  background-color: black;
+  color: #44ffdc;
+}
+
+footer {
+  padding: 20px;
+}

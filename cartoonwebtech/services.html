@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cartoon Maniac</title>
+  <link rel="icon" type="image/ico" href="cartoonlogo1.png">
+  <link href="services.css" type="text/css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Averia+Sans+Libre" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <style>
+  .mySlides {display:none;}
+  </style>
+  </head>
+
+  <body>
+    <header>
+
+      <ul class="button">
+        <li><a href=" index.html#">Home</a></li>
+
+        <li class="dropdown">
+        <a class="dropbtn" href=" malay.html#">Malay Cartoon</a>
+            <div class="dropdown-content">
+              <a href=" anaksidek.html">Anak Sidek</a>
+              <a href=" boboiboy.html">Boboiboy</a>
+              <a href=" bolakampung.html">Bola Kampung</a>
+              <a href=" ejenali.html">Ejen Ali</a>
+              <a href=" kampungboy.html">Kampung Boy</a>
+              <a href=" upinipin.html">Upin dan Ipin</a>
+            </div>
+        </li>
+
+        <li class="dropdown">
+        <a class="dropbtn" href=" western.html#">English Cartoon</a>
+            <div class="dropdown-content">
+              <a href=" bobthebuilder.html">Bob The Builder</a>
+              <a href=" fairyoddparents.html">Fairy the Odd Parents</a>
+              <a href=" mrbean.html">Mr Bean</a>
+              <a href=" pingu.html">Pingu</a>
+              <a href=" teletubbies.html">Teletubbies</a>
+              <a href=" webarebears.html">We Bear Bears</a>
+            </div>
+        </li>
+
+        <li class="dropdown">
+        <a class="dropbtn" href=" anime.html#">Anime</a>
+            <div class="dropdown-content">
+              <a href=" detectiveconan.html">Detective Conan</a>
+              <a href=" doraemon.html">Doraemon</a>
+              <a href=" fairytail.html">Fairy Tail</a>
+              <a href=" naruto.html">Naruto</a>
+              <a href=" onepiece.html">One Piece</a>
+              <a href=" shinchan.html">Shin Chan</a>
+            </div>
+        </li>
+
+      <li><a href=" aboutus.html">About Us</a></li>
+      <li><a href=" services.html">Services</a></li>
+
+    </ul>
+
+    </header>
+
+ <div class="form">
+
+   <div class="left">
+    <div class="w3-content w3-section" style="max-width:400px">
+     <img class="mySlides" src="1.png" style="width:100%; padding-top:90px;">
+     <img class="mySlides" src="2.png" style="width:100%; padding-top:90px;">
+    </div>
+
+    <script>
+   var myIndex = 0;
+   carousel();
+
+   function carousel() {
+       var i;
+       var x = document.getElementsByClassName("mySlides");
+       for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+       }
+       myIndex++;
+       if (myIndex > x.length) {myIndex = 1}
+       x[myIndex-1].style.display = "block";
+       setTimeout(carousel, 2000); // Change image every 2 seconds
+   }
+   </script>
+</div>
+
+   <nav class="container">
+   <h1>Having any problems? Please leave your report here :></h1>
+     <form method="post" action="send_mail.php">
+     <p>
+       <label>Name: <input type="text" name="first_name" required></label>
+     </p>
+
+     <p>
+       <label>Email: <input type="email" name="email_address"></label>
+     </p>
+
+     <p>
+       <label>Comments: <textarea name="comments" maxlength="500"></textarea></label>
+     </p>
+
+     <p>
+       <button onclick="alert('Thanks for you report!')">
+         <a href=" services.html">Submit</a>
+       </button>
+     </p>
+
+     </form>
+   </nav>
+ </div>
+
+ <footer>
+   <p>&copy; 2018 Cartoon Maniac</p>
+ </footer>
+  </body>
+</html>

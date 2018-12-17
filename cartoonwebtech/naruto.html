@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>Naruto</title>
+<link rel="icon" type="image/ico" href="cartoonlogo1.png">
+<link rel="stylesheet" href="cartoon.css">
+<link href="https://fonts.googleapis.com/css?family=Averia+Sans+Libre" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+
+    <ul class="button">
+      <li><a href=" index.html#">Home</a></li>
+
+      <li class="dropdown">
+      <a class="dropbtn" href=" malay.html#">Malay Cartoon</a>
+          <div class="dropdown-content">
+            <a href=" anaksidek.html">Anak Sidek</a>
+            <a href=" boboiboy.html">Boboiboy</a>
+            <a href=" bolakampung.html">Bola Kampung</a>
+            <a href=" ejenali.html">Ejen Ali</a>
+            <a href=" kampungboy.html">Kampung Boy</a>
+            <a href=" upinipin.html">Upin dan Ipin</a>
+          </div>
+      </li>
+
+      <li class="dropdown">
+      <a class="dropbtn" href=" western.html#">English Cartoon</a>
+          <div class="dropdown-content">
+            <a href=" bobthebuilder.html">Bob The Builder</a>
+            <a href=" fairyoddparents.html">Fairy the Odd Parents</a>
+            <a href=" mrbean.html">Mr Bean</a>
+            <a href=" pingu.html">Pingu</a>
+            <a href=" teletubbies.html">Teletubbies</a>
+            <a href=" webarebears.html">We Bear Bears</a>
+          </div>
+      </li>
+
+      <li class="dropdown">
+      <a class="dropbtn" href=" anime.html#">Anime</a>
+          <div class="dropdown-content">
+            <a href=" detectiveconan.html">Detective Conan</a>
+            <a href=" doraemon.html">Doraemon</a>
+            <a href=" fairytail.html">Fairy Tail</a>
+            <a href=" naruto.html">Naruto</a>
+            <a href=" onepiece.html">One Piece</a>
+            <a href=" shinchan.html">Shin Chan</a>
+          </div>
+      </li>
+
+    <li><a href=" aboutus.html">About Us</a></li>
+    <li><a href=" services.html">Services</a></li>
+
+  </ul>
+
+  </header>
+
+<div class="slideshow">
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="naruto2.jpg" style="width:1350px; height:500px;">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="naruto1.png" style="width:1350px; height:500px;">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="naruto3.jpg" style="width:1350px; height:500px;">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<section>
+  Best Episodes:
+</section>
+
+<div class="video">
+
+  <div class="polaroid">
+    <iframe width="360" height="260" src="https://www.youtube.com/embed/AsrA_b4wQ2g"
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
+            picture-in-picture" allowfullscreen></iframe>
+  <div class="container">
+    <p>Find the Four Leaf Red Clover!</p>
+  </div>
+  </div>
+
+  <div class="polaroid">
+    <iframe width="360" height="260" src="https://www.youtube.com/embed/1CoOj2VPkp4"
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
+            picture-in-picture" allowfullscreen></iframe>
+  <div class="container">
+    <p>Naruto, Genie and Three Wishes</p>
+  </div>
+  </div>
+
+<div class="polaroid">
+  <iframe width="360" height="260" src="https://www.youtube.com/embed/u8AhQZ7TTcg"
+          frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
+          picture-in-picture" allowfullscreen></iframe>
+    <div class="container">
+    <p>Finally a Clash! Genin VS Jonin</p>
+  </div>
+  </div>
+
+  <div class="polaroid">
+    <iframe width="360" height="260" src="https://www.youtube.com/embed/35Ffs3q1VHg"
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
+            picture-in-picture" allowfullscreen></iframe>
+            <div class="container">
+    <p>Naruto the Crossroad</p>
+  </div>
+  </div>
+
+  <div class="polaroid">
+    <iframe width="360" height="260" src="https://www.youtube.com/embed/E_kxm4knEYE"
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
+            picture-in-picture" allowfullscreen></iframe>
+    <div class="container">
+    <p>Revolution-Ninja Escapades</p>
+  </div>
+  </div>
+
+  <div class="polaroid">
+    <iframe width="360" height="260" src="https://www.youtube.com/embed/2u3yK3Kb46c"
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
+            picture-in-picture" allowfullscreen></iframe>
+    <div class="container">
+    <p>Road to Ninja</p>
+  </div>
+  </div>
+
+  </div>
+
+
+  <footer>
+    <p>&copy; 2018 Cartoon Maniac</p>
+  </footer>
+
+  </body>
+</html>

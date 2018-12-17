@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cartoon Maniac</title>
+    <link rel="icon" type="image/ico" href="cartoonlogo1.png">
+    <link href="index.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Averia+Sans+Libre" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  </head>
+  <style media="screen">
+    .mySlides {display:none;}
+  </style>
+
+  <body>
+    <header>
+
+      <ul class="button">
+        <li><a href=" index.html#">Home</a></li>
+
+        <li class="dropdown">
+        <a class="dropbtn" href=" malay.html#">Malay Cartoon</a>
+            <div class="dropdown-content">
+              <a href=" anaksidek.html">Anak Sidek</a>
+              <a href=" boboiboy.html">Boboiboy</a>
+              <a href=" bolakampung.html">Bola Kampung</a>
+              <a href=" ejenali.html">Ejen Ali</a>
+              <a href=" kampungboy.html">Kampung Boy</a>
+              <a href=" upinipin.html">Upin dan Ipin</a>
+            </div>
+        </li>
+
+        <li class="dropdown">
+        <a class="dropbtn" href=" western.html#">English Cartoon</a>
+            <div class="dropdown-content">
+              <a href=" bobthebuilder.html">Bob The Builder</a>
+              <a href=" fairyoddparents.html">Fairy the Odd Parents</a>
+              <a href=" mrbean.html">Mr Bean</a>
+              <a href=" pingu.html">Pingu</a>
+              <a href=" teletubbies.html">Teletubbies</a>
+              <a href=" webarebears.html">We Bear Bears</a>
+            </div>
+        </li>
+
+        <li class="dropdown">
+        <a class="dropbtn" href=" anime.html#">Anime</a>
+            <div class="dropdown-content">
+              <a href=" detectiveconan.html">Detective Conan</a>
+              <a href=" doraemon.html">Doraemon</a>
+              <a href=" fairytail.html">Fairy Tail</a>
+              <a href=" naruto.html">Naruto</a>
+              <a href=" onepiece.html">One Piece</a>
+              <a href=" shinchan.html">Shin Chan</a>
+            </div>
+        </li>
+
+      <li><a href=" aboutus.html">About Us</a></li>
+      <li><a href=" services.html">Services</a></li>
+
+    </ul>
+
+    </header>
+
+    <div class="slide">
+    <div class="clearfix">
+      <div class="box1">
+        <img src="cartoonlogo1.png" alt="" style="width:55%">
+        <button class="watch" style="vertical-align:middle">
+          <a href=" shortvc.html">Short Video Clip</a>
+        </button>
+      </div>
+
+      <div class="box2">
+          <img class="mySlides" src="catdog.jpg">
+          <img class="mySlides" src="pingu.jpeg">
+          <img class="mySlides" src="upindanipin.jpg">
+      </div>
+    </div>
+    </div>
+
+          <script>
+          var myIndex = 0;
+          carousel();
+
+          function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}
+            x[myIndex-1].style.display = "block";
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+          }
+          </script>
+      </div>
+    </div>
+
+    <section>
+      <p> ALL TIME FAVOURITE </p>
+    </section>
+
+    <div class="pictures">
+
+    <a href="kampungboy.html">
+      <div class="polaroid">
+        <img src="kampungboy.png" alt="KB" style="width:100%">
+        <div class="container">
+          <p>Kampung Boy</p>
+        </div>
+      </div>
+    </a>
+
+    <a href="upinipin.html">
+      <div class="polaroid">
+        <img src="upinipin.jpeg" alt="Upin Ipin" style="width:100%">
+        <div class="container">
+          <p>Upin Ipin</p>
+        </div>
+      </div>
+    </a>
+
+    <a href="pingu.html">
+      <div class="polaroid">
+        <img src="pingu.jpeg" alt="Pingu" style="width:100%">
+        <div class="container">
+          <p>Pingu</p>
+        </div>
+    </div></a>
+
+    <a href="teletubbies.html">
+      <div class="polaroid">
+        <img src="teletubbies.jpeg" alt="Teletubbies" style="width:100%">
+        <div class="container">
+          <p>Teletubbies</p>
+        </div>
+      </div>
+    </a>
+
+    <a href="onepiece.html">
+      <div class="polaroid">
+        <img src="onepiece.jpeg" alt="One piece" style="width:100%">
+        <div class="container">
+          <p>One piece</p>
+        </div>
+      </div>
+    </a>
+
+    <a href="boboiboy.html">
+      <div class="polaroid">
+        <img src="boboi.jpg" alt="BoBoiBoy" style="width:100%">
+        <div class="container">
+          <p>BoBoiBoy</p>
+        </div>
+      </div>
+    </a>
+
+    <a href="doraemon.html">
+      <div class="polaroid">
+        <img src="doraemon.jpg" alt="Doraemon" style="width:100%">
+        <div class="container">
+          <p>Doraemon</p>
+        </div>
+      </div>
+    </a>
+
+    <a href="detectiveconan.html">
+      <div class="polaroid">
+        <img src="detectiveconan.jpg" alt="Detective Conan" style="width:100%">
+        <div class="container">
+          <p>Detective Conan</p>
+        </div>
+      </div>
+    </a>
+      </div>
+
+
+    <footer>
+      <p>&copy; 2018 Cartoon Maniac</p>
+    </footer>
+
+  </body>
+</html>
